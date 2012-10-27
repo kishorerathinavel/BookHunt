@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.androidhive.loginandregister"
+      android:installLocation="preferExternal"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="8" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application android:icon="@drawable/library" android:label="@string/app_name">
+        <activity android:name=".LoginActivity"
+                  android:label="Login to your Account">
+           
+        </activity>
+       
+        <!--  Entry for RegisterActivity.class -->
+        <activity android:name=".RegisterActivity"
+        		  android:label="Register New Account"></activity>
+        <activity android:name=".ConfirmationActivity"
+        		  android:label="Confirmation"></activity>
+        <activity android:name=".RegisterActivity"
+        		  android:label="Register New Account"></activity>
+        <activity android:name=".Borrow"
+        		  android:label="Borrow"></activity>
+        <activity android:name=".Lend"
+        		  android:label="Lend"></activity>
+        <activity android:name=".MarketView"
+        		  android:label="Market"></activity>
+        <activity android:name=".GooglebookssampleActivity"
+        		  android:label="GooglebooksampleActivity"></activity>
+         <activity android:name=".SearchISBNActivity"
+        		  android:label="SearchISBNActivity"></activity>
+         <activity android:name=".ManualActivity"
+        		  android:label="ManualActivity"></activity>
+         <activity android:name=".ManualShareActivity"
+        		  android:label="ManualShareActivity"></activity>
+         <activity android:name=".BorrowActivity"
+        		  android:label="BorrowActivity"></activity>
+         <activity android:name=".PrefsActivity"
+        		  android:label="PrefsActivity"></activity>
+        <activity android:name=".Tabs"
+        		  android:label="BookHunt"
+        		  > <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter></activity>
+
+    </application>
+</manifest>

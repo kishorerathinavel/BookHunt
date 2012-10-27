@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory
+                android:title="User Credentials">                
+        <EditTextPreference
+                android:name="RollNo"
+                android:summary="Enter Your Roll No"
+                android:defaultValue=""
+                android:title="RollNo"
+                android:key="RollNo" />
+         <EditTextPreference
+                android:name="RoomNo"
+                android:summary="Enter Your Room No"
+                android:defaultValue=""
+                android:title="RoomNo"
+                android:key="RoomNo" />
+        </PreferenceCategory>
+        <PreferenceCategory
+                android:title="Server Settings">
+        <EditTextPreference
+                android:name="Server"
+                android:summary="Enter the server ip address"
+                android:defaultValue=""
+                android:title="Server Address"
+                android:key="Server" />               
+        </PreferenceCategory>
+         <PreferenceCategory
+                android:title="Email Settings">
+        <EditTextPreference
+                android:name="Email"
+                android:summary="Enter the email address"
+                android:defaultValue=""
+                android:title="Email Address"
+                android:key="Email" />               
+        </PreferenceCategory>
+         <PreferenceCategory>
+             <EditTextPreference
+    			android:key="Passcode"
+   				android:title="Passcode"
+    			android:summary="Enter the passcode"   
+    			android:inputType= "textPassword" />	
+         </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:background="#345155"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+  <!-- Screen Design for Photos -->
+    <LinearLayout android:layout_width="match_parent" 
+        android:id="@+id/linearLayout1" 
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+        <TextView android:layout_gravity="center" 
+            android:layout_width="wrap_content" 
+            android:text="TO LEND" 
+            android:layout_height="wrap_content" 
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:layout_weight="1" 
+            android:id="@+id/textView1"></TextView>
+        <ImageButton android:layout_width="wrap_content" 
+            android:src="@android:drawable/ic_input_add" 
+            android:layout_height="wrap_content" 
+            android:id="@+id/addLend" 
+            android:layout_weight="0"
+            android:layout_gravity="center"></ImageButton>
+    </LinearLayout>
+  			
+<ListView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@android:id/list">
+</ListView>
+
+    <TextView
+        android:id="@android:id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No content added yet" android:textColor="#FFF" android:textSize="20dp"/>
+  			
+  			
+    
+</LinearLayout>

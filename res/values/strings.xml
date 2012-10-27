@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, LoginActivity!</string>
+    <string name="app_name">BookHunt</string>
+    <string name="ConfirmationCode">Check your mail and enter the passcode received below to complete registration</string>
+    <string name="submit">Submit</string>
+    <string name="sendAgain">Incase you haven\'t received the passcode press back key</string>
+    <string name="back">Press back to send the confirmation code agains</string>
+    <string name="onShare">Put it on Share</string>
+    <string name="bookTitle">Enter the book Title</string>
+    <string name="bookAuthor">Book Author</string>
+    <string name="bookPublisher">Book Publisher</string>
+    <string name="bookISBN">ISBN Code</string>
+    <string name="bookDesc">Book Description</string>
+    <string name="done">Put it on Share</string>
+    <string name="wishList">Put it on WishList</string>
+    
+    <string name="search_label">Search</string>
+    <string name="search_hint">Search</string>
+    <string name="search_invoke">Search</string>
+    
+        <!-- The menu entry that invokes search. -->
+    <string name="menu_search">Search</string>
+
+    <!-- The description that will show up in the search settings for this source.  -->
+    <string name="settings_description">Definitions of words</string>
+
+    <!-- General instructions in the main activity. -->
+    <string name="search_instructions">Press the search key to look up a word</string>
+
+    <!-- Shown above search results when we receive a search request. -->
+<plurals name="search_results">
+      <item quantity="one">%1$d result for \"%2$s\": </item>
+      <item quantity="other">%1$d results for \"%2$s\": </item>
+    </plurals>
+    <!-- Search failure message. -->
+    <string name="no_results">No results found for \"%s\"</string>
+    <string name="settings">User Settings</string>
+</resources>
